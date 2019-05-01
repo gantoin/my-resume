@@ -1,64 +1,64 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
+  first: Antoine
   middle:
-  last: Doe
+  last: Gauthier
 about: Hi, my name is John Doe. I"m just about the most boring type of person you could
        possibly imagine. I like collecting leaves from the tree in my back yard and documenting
        each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+position: Développeur Full Stack
 
 birth:
-  year: 1990
-  location: New York
+  year: 1995
+  location: Nantes
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: Wemoov
+  position: Développeur Full Stack
+  timeperiod: Du 01/04/2019
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+- company: Ministère de la Justice
+  position: Analyste au bureau des études et statistiques
+  timeperiod: Du 02/01 au 31/08/2018
+  description: Refonte d'enquêtes (Java & Angular 2).
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: TRSb Digiwin
+  position: Développeur Web
+  timeperiod: Du 13/03 au 05/07/2017
+  description: Développement d’une application web et d’un Intranet.
+
+- company: Pôle Emploi DSI
+  position: Développeur Java
+  timeperiod: Du 04/01 au 12/02/2016
+  description: Tests unitaires sur une API et développement de méthodes Java Rest.
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
+- degree: Licence professionnelle
+  timeperiod: 2016-2017
+  description: Systèmes Informatiques et Logiciels, IUT de Nantes
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: BTS Services informatiques aux organisations
+  timeperiod: 2014-2016
+  description: Solutions logicielles et applications métiers (SLAM)
 
 # skill level goes 0 to 100
 skills:
-- name: HTML5
-  level: 99
-- name: CSS3
-  level: 95
-- name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
+- name: Java
   level: 80
-- name: ES.Next
+- name: GIT
+  level: 80
+- name: Spring
+  level: 80
+- name: Angular 2
   level: 70
+- name: ReactJS
+  level: 60
+- name: PHP
+  level: 45
 - name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+  level: 45
+
+knowledge: Anglais niveau B2 (en formation)
 
 projects:
 - name: best-resume-ever
@@ -81,12 +81,9 @@ contributions:
   url: https://github.com/salomonelli/best-resume-ever
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: m.gauthier.antoine@gmail.com
+  phone: 0698095983
+  street: Basse Goulaine
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
-lang: en
+lang: fr
 `
