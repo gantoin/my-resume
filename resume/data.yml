@@ -3,87 +3,87 @@ name:
   first: Antoine
   middle:
   last: Gauthier
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Développeur Full Stack
+about: Développeur Java depuis 3ans+, je développe des Back-ends web (micro-services, RESTful)
+  via des outils connus comme Spring, JPA, Hibernate, Swagger, Apache Kafka. Je fais aussi du front (ancien dev Full Stack Java/JS) avec React ou Angular.
+  Full remote only.
+position: Développeur Java
 
 birth:
   year: 1995
   location: Nantes
 
 experience:
+- company: Doubletrade
+  position: Développeur Back-end Java
+  timeperiod: Du 01/07/2019 (poste actuel 4/5ème)
+  description: Architecture micro-services, avec messaging kafka, dans un context Spring Cloud
+
 - company: Wemoov
   position: Développeur Full Stack
-  timeperiod: Du 01/04/2019
+  timeperiod: Du 01/04 au 30/06/2019
+  description: R&D - Dev d'un back-office JHipster (Java/Angular) dans le Pôle, app mobile de montage vidéo ffmpeg
 
 - company: Ministère de la Justice
-  position: Analyste au bureau des études et statistiques
+  position: Analyse-programmeur
   timeperiod: Du 02/01 au 31/08/2018
-  description: Refonte d'enquêtes (Java & Angular 2).
+  description: Refonte d'applications internes (Java & Angular 2)
 
 - company: TRSb Digiwin
   position: Développeur Web
   timeperiod: Du 13/03 au 05/07/2017
-  description: Développement d’une application web et d’un Intranet.
+  description: Développement Full Stack Java/ReactJS + Intranet avec Jalios JCMS (CMS Java)
 
-- company: Pôle Emploi DSI
+- company: Pôle Emploi (DSI)
   position: Développeur Java
   timeperiod: Du 04/01 au 12/02/2016
-  description: Tests unitaires sur une API et développement de méthodes Java Rest.
+  description: Tests unitaires, tests d'intégrations, développement d'APIs
 
 education:
-- degree: Licence professionnelle
+- degree: Licence professionnelle (IUT de Nantes)
   timeperiod: 2016-2017
-  description: Systèmes Informatiques et Logiciels, IUT de Nantes
+  description: Systèmes informatiques et logiciels
 
-- degree: BTS Services informatiques aux organisations
+- degree: Brevet de technicien supérieur
   timeperiod: 2014-2016
-  description: Solutions logicielles et applications métiers (SLAM)
+  description: Services informatiques aux organisations
 
 # skill level goes 0 to 100
 skills:
 - name: Java
   level: 80
-- name: GIT
-  level: 80
 - name: Spring
   level: 80
-- name: Angular 2
+- name: SQL
+  level: 80
+- name: Git
   level: 70
-- name: ReactJS
-  level: 60
-- name: PHP
-  level: 45
+- name: Kafka
+  level: 50
 - name: Docker
-  level: 45
+  level: 50
+- name: Jira
+  level: 50
+- name: Linux
+  level: 50
+- name: ffmpeg
+  level: 50
+- name: liquibase
+  level: 50
+- name: Selenium
+  level: 50
+- name: HTML/CSS
+  level: 40
+- name: ReactJS
+  level: 40
+- name: Angular
+  level: 30
 
-knowledge: Anglais niveau B2 (en formation)
-
-projects:
-- name: best-resume-ever
-  platform: Vue
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
-
-hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
-
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
-
-contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+knowledge: Anglais B2
 
 contact:
   email: m.gauthier.antoine@gmail.com
   phone: 0698095983
-  street: Basse Goulaine
+  street: Nantes
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
 lang: fr
 `
